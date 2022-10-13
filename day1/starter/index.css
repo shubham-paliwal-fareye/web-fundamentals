@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   .main-container
+   {
+    
+     /* display:flex;
+     overflow-y: auto; */
+
+     display: grid;
+     grid-template-columns: repeat(8,auto);
+     gap: 2px;
+     
+
+    
+   }
+  .card
+   {
+    
+    /* margin: auto; */
+    width: 200px;
+    height: 350px;
+    border: solid chocolate 5px;
+    border-radius: 10px;
+   }
+   .imagepart
+   {
+       margin: auto;
+       display: grid;
+       width: 140px; 
+       height: 140px;
+       border: solid red 10px;
+       border-radius: 10px;
+   }
+   .details
+   { 
+    
+    /* margin: auto; */
+    width: 200px;
+    height: 190px;
+    background-color: gainsboro ;
+
+   }
+   .details-para
+   {
+       display: flex;
+       
+   }
+   
+   .key{
+     padding-left: 150px;
+            
+
+   }
+   .value{
+      /* margin: 100px; */
+      padding-left: 12px;
+   }
+   .img{
+    margin: auto;
+    height: 140px;
+    width: 140px;
+   }
