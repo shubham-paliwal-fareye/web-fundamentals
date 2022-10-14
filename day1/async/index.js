@@ -13,3 +13,7 @@ function asyncPriority() {
 }
 
 asyncPriority();
+
+queueMicrotask(() => {
+  /* code to run in the microtask here */
+});
