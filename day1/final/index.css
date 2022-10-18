@@ -35,7 +35,7 @@ header{
 }
 .details-container{
     display: inline-grid;
-    gap: 5px;   
+    gap: 5px; 
 }
 .details{
     display: flex;
